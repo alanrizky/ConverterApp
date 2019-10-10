@@ -9,6 +9,16 @@
         <item>Kilometer</item>
     </string-array>
 
+    <string-array name="binary">
+        <item>Byte</item>
+        <item>KiloByte</item>
+        <item>MegaByte</item>
+        <item>GigaByte</item>
+        <item>TeraByte</item>
+        <item>PetaByte</item>
+    </string-array>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

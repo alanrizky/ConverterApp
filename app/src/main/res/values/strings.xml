@@ -18,6 +18,15 @@
         <item>PetaByte</item>
     </string-array>
 
+    <string-array name="speed">
+        <item>Kilometre/h</item>
+        <item>Mile/h</item>
+        <item>Knot</item>
+        <item>Metre/h</item>
+        <item>Foot/h</item>
+    </string-array>
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

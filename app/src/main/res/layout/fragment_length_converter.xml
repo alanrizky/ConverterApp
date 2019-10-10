@@ -67,25 +67,4 @@
         app:layout_constraintTop_toBottomOf="@+id/editText_to"
         app:layout_constraintVertical_bias="0.13999999" />
 
-    <ListView
-        android:id="@+id/lvTo"
-        android:layout_width="0dp"
-        android:layout_height="67dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_from"
-        app:layout_constraintEnd_toStartOf="@+id/spinner_from"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
-
-    <ListView
-        android:id="@+id/lvFrom"
-        android:layout_width="0dp"
-        android:layout_height="78dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/spinner_to"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19999999" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

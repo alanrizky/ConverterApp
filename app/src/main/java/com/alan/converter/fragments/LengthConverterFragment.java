@@ -101,6 +101,6 @@ public class LengthConverterFragment extends Fragment {
 
 
     public interface OnFragmentInteractionListener {
-        void onConvertButtonClicked(View view);
+        void onConvertLengthButtonClicked(View view);
     }
 }

@@ -19,13 +19,12 @@
     </string-array>
 
     <string-array name="speed">
-        <item>Kilometre/h</item>
-        <item>Mile/h</item>
+        <item>Kmh</item>
+        <item>Mph</item>
         <item>Knot</item>
-        <item>Metre/h</item>
-        <item>Foot/h</item>
+        <item>Mmh</item>
+        <item>Fph</item>
     </string-array>
-
 
 
     <!-- TODO: Remove or change this placeholder text -->

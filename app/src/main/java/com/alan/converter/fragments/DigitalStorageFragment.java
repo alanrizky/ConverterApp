@@ -86,9 +86,6 @@ public class DigitalStorageFragment extends Fragment {
         return view;
     }
 
-    public interface OnFragmentListener {
-
-    }
 
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -101,6 +98,5 @@ public class DigitalStorageFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        void onConvertDigitalStorageButtonClicked(View view);
     }
 }

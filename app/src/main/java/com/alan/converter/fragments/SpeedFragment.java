@@ -17,7 +17,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.alan.converter.R;
-import com.alan.converter.converter.DigitalStorage;
 import com.alan.converter.converter.SpeedConverter;
 
 /**
@@ -86,9 +85,6 @@ public class SpeedFragment extends Fragment {
         return view;
     }
 
-    public interface OnFragmentListener {
-
-    }
 
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -100,7 +96,6 @@ public class SpeedFragment extends Fragment {
         }
     }
     public interface OnFragmentInteractionListener {
-        void onConvertSpeedButtonClicked(View view);
     }
 
 }

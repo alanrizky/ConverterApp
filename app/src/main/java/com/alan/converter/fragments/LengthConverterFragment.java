@@ -85,9 +85,6 @@ public class LengthConverterFragment extends Fragment {
         return view;
     }
 
-    public interface OnFragmentListener {
-
-    }
 
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -101,6 +98,5 @@ public class LengthConverterFragment extends Fragment {
 
 
     public interface OnFragmentInteractionListener {
-        void onConvertLengthButtonClicked(View view);
     }
 }

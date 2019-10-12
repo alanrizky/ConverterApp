@@ -86,18 +86,6 @@ public class MainActivity extends AppCompatActivity implements
         return loadFragment(fragment);
     }
 
-    public void onConvertLengthButtonClicked(View view) {
-        lengthConverterFragment.setResult();
-    }
-
-    public void onConvertDigitalStorageButtonClicked(View view) {
-        digitalStorageFragment.setResult();
-    }
-
-    public void onConvertSpeedButtonClicked(View view) {
-        speedFragment.setResult();
-    }
-
     public void githubLink(View view) {
         String url = "http://www.github.com/alanrizky";
         Uri uriUrl = Uri.parse(url);

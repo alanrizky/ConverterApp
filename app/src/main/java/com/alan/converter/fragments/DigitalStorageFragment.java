@@ -36,10 +36,6 @@ public class DigitalStorageFragment extends Fragment {
         // Required empty public constructor
     }
 
-    public double setResult() {
-        return result;
-    }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

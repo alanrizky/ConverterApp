@@ -29,20 +29,12 @@ public class MainActivity extends AppCompatActivity implements
 
     private TextView about;
 
-    private LengthConverterFragment lengthConverterFragment;
-    private DigitalStorageFragment digitalStorageFragment;
-    private SpeedFragment speedFragment;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         about = findViewById(R.id.about);
         fragmentAbout = FragmentAbout.newInstance("Alan Rizky Wardana");
-        lengthConverterFragment = new LengthConverterFragment();
-        digitalStorageFragment = new DigitalStorageFragment();
-        speedFragment = new SpeedFragment();
-
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

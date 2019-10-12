@@ -48,5 +48,8 @@ public class FragmentAbout extends Fragment {
             name = getArguments().getString(ARG_NAME);
         }
     }
+    public interface OnFragmentInteractionListener {
+        void onAboutButtonClicked(View view);
+    }
 
 }
